@@ -2,19 +2,19 @@
 
 ## Authorization
 
-`username:` studentapi
-`password:` studentapi
+`username: studentapi`
+`password: studentapi`
 
 Get the JWT token using /authenticate endpoint.
 
 ## To use REST APIs pass token in the header of every request
 
-`Authorization:` Bearer <TOKEN>
+`Authorization: Bearer <TOKEN>`
 		
 ## How to run application 
 
 #### Go to target directory then open cmd there.
 
-java -jar StudentApplication-0.0.1-SNAPSHOT.jar
+`java -jar StudentApplication-0.0.1-SNAPSHOT.jar`
 
 #### Go to browser and access http://localhost:8080/swagger-ui.html
